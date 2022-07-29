@@ -1,0 +1,32 @@
+.navBar{
+    display: flex;
+    position: fixed;
+    z-index: 1; 
+    width: 100%;
+    top: 0;
+    color: white;
+    .icono{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    .botones{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        .but{
+            padding: 10px;
+            cursor: pointer;
+        }
+        .but:hover{
+            border-bottom: 2px solid rgb(255, 255, 255);
+        }
+    }
+    .final_icono{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}
